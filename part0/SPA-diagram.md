@@ -1,10 +1,5 @@
 ```mermaid
----
-title: [Single Page App]
----
----
-title: Single Page App
----
+
 flowchart TD
     subgraph Browser
         requestHTML[Request HTML from Server] --> requestLoadJS[Request & Load JS File] --> executeJS[Execute JS, Initialize Elements & Processing] --> B{User Input}
@@ -17,6 +12,4 @@ flowchart TD
         end
     end
 
-
-
-````
+```
